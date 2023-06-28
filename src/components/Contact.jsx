@@ -35,10 +35,6 @@ const Contact = () => {
       .send(
       'service_nfpjwzd',
       'template_8gju5zv',
-        // import.meta.env.service_nfpjwzd,
-        // import.meta.env.template_8gju5zv,
-        // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Thushi",
@@ -47,8 +43,6 @@ const Contact = () => {
           message: form.message,
         },
         'BEhbVWeQBiBZZzsIe'
-        // import.meta.env.BEhbVWeQBiBZZzsIe
-        // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
