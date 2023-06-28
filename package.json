@@ -2,7 +2,7 @@
   "name": "3dfolio",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://HxHBubble.github.io/myportfolio",
+  "homepage": "https://hxhbubble.github.io/myportfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
